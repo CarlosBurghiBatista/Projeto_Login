@@ -24,7 +24,7 @@ section#login{position: absolute;
               transform: translate(-50% , -50%);
               overflow: hidden;
               background-color: white;
-              width: 250px;
+              width: 255px;
               height: 500px;
               border-radius: 20px;
               box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
@@ -39,6 +39,11 @@ section#login > div#imagem{display: block;
                            height: 200px;}
 
 section#login > div#formulario{display: block;
-                               padding:10px;}                           
+                               padding:10px;}
+                               
+div#formulario > h1{text-align: center;
+                    margin-bottom: 10px;}                               
                            
-                        
+div#formulario > p{font-size: 0.8em;}                        
+
+
